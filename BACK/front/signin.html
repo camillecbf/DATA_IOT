@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/signin.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+    <title>Harry Potter Sign in</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section class="accordeon">
+          <div class="titre">
+            <img id="fleche" src="assets/img/navicon.png" alt="Fleche" />
+          </div>
+          <div class="contenu">
+            <ul class="menu-container">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="collection.html">Collection</a></li>
+              <li><a href="signin.html">Se connecter</a></li>
+              <li><a href="signup.html">S'inscrire</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="logo">
+          <img id="logoimg" src="assets/img/hogwarts-logo.png" alt="logo" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form id="formulaire">
+        <div class="input-group">
+          <label for="username">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="username"
+            placeholder="Saisissez votre Email"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Mot de passe</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Saisissez votre mot de passe"
+            required
+          />
+        </div>
+        <input class="save" type="submit" value="Se connecter" />
+      </form>
+    </main>
+    <footer>
+      <div class="info">
+        <p>Plus d'infos</p>
+        <p>FAQ</p>
+        <p>A propos</p>
+        <p>Contactez-nous</p>
+        <p>Remboursement et échanges</p>
+      </div>
+      <div class="droit">
+        <p>Politique de Confidentialité</p>
+        <p>Conditions d'utilisations et Mentions Légales</p>
+        <p>Avis</p>
+      </div>
+    </footer>
+    <script src="assets/js/signin.js"></script>
+    <script src="assets/js/header.js"></script>
+  </body>
+</html>

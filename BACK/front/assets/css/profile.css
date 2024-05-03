@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  background-color: rgb(254, 247, 253);
+}
+
+h2 {
+  display: flex;
+  margin-left: 29%;
+  padding-top: 15px;
+}
+
+form {
+  width: 30%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 60px;
+  align-items: center;
+  margin-left: 25%;
+}
+
+form input {
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.save {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(252, 230, 244);
+  border: none;
+  border-radius: 4px;
+  color: #925c7f;
+  cursor: pointer;
+}
+
+.save:hover {
+  background-color: #f5d4ea;
+}

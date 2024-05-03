@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  background-color: rgb(254, 247, 253);
+}
+
+form {
+  width: 30%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 60px;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+form input {
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* .submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+} */
+
+.save {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(252, 230, 244);
+  border: none;
+  border-radius: 4px;
+  color: #925c7f;
+  cursor: pointer;
+}
+
+.save:hover {
+  background-color: #f5d4ea;
+}
+
+/*verification réussie*/
+.success {
+  border: 1px solid rgb(81, 150, 2);
+  background-color: rgba(113, 212, 0, 0.4);
+}
+
+/*le message d'erreur*/
+.message-error.visible {
+  display: block;
+}
+
+.message-error {
+  /*si quelque chose n'est pas respecté, le message d'erreur se présentera en rouge*/
+  border: 1px solid rgba(212, 42, 0, 1);
+  color: rgb(255, 230, 224);
+  background-color: rgba(212, 42, 0, 0.4);
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+  width: fit-content;
+  align-items: center;
+}
+
+.message-success {
+  /*si tout est respecté, la case sera en vert*/
+  border: 1px solid rgb(81, 150, 2);
+  color: rgb(81, 150, 2);
+  background-color: rgba(113, 212, 0, 0.4);
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+@media all and (max-device-width: 320px) {
+}

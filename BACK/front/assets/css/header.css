@@ -1,0 +1,83 @@
+nav {
+  display: flex;
+}
+
+.logo img {
+  display: flex;
+  justify-content: flex-end;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+}
+
+.accordeon {
+  border: 1px solid rgba(146, 146, 146, 0.3);
+  width: 80%;
+  max-width: auto;
+  margin: 10px auto;
+  color: white;
+}
+
+.titre {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(242, 185, 245, 0.3);
+}
+
+.contenu {
+  padding: 0 20px;
+  height: 0;
+  visibility: hidden;
+}
+
+#fleche {
+  width: 50px;
+  height: 50px;
+}
+
+.titre img {
+  width: 20px;
+  height: 20pc;
+  transition: 0.4s;
+}
+
+.accordeon.open .titre img {
+  transform-origin: center;
+  transform: rotate(90deg);
+}
+
+.contenu {
+  padding: 0 20px;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.accordeon.open .contenu {
+  padding: 30px 20px;
+  height: auto;
+  visibility: visible;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  letter-spacing: 1px;
+  padding-left: 5%;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(252, 230, 244);
+  width: 100%;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: rgb(71, 60, 70);
+}
